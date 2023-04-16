@@ -33,17 +33,6 @@ typedef struct H
 }H;
 
 //*****************************************************************************************
-void  convert(char*ch)//fonction qui convertit le buffer en minuscule
-{
-    int l=strlen(ch);
-    int i;
-    for(i=0 ; i < l ; i++ )
-    {
-        if ( ch[i] >=65 && ch[i]<=90)
-            ch[i] = ch[i]+32 ;
-    }
-}
-//*****************************************************************************************
 int menu()//retourne le choix selectionner a l'aide des fléches ( bas & haut) le choix est mis en couleur
 {
     int  choix=1;
@@ -245,7 +234,7 @@ patient*liste_patients(FILE*F,char c)//la liste des patient dont leurs id commen
     while(!feof(F))
     {
         fgets(ch,t_buffer,F);
-        if(ch[0]==c)
+        if(tolower(ch[0])==c)
         {
             if(t==NULL)
             {
@@ -806,5 +795,4 @@ void main()
     }
     system("pause");
 }
-
 
