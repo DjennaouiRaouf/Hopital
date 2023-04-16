@@ -1,22 +1,20 @@
->* PROJET REALISE PAR: * 
+>* PROJET REALISE PAR:  
 
-- DJENNAOUI RAOUF 
+DJENNAOUI RAOUF 
 
- * Remarque: * 
+ >* Remarque: 
 
 Afin d’executer le programme, il faut que l’utilisateur introduise le nom du fichier (nom_fichier.txt) . En cas d’ erreur dans la saisie du  nom ou  que le fichier txt  n’est pas dans le même répertoire que l’exécutable le programme va s’interrompre.
 
 Aussi  si dans le fichier on a par exemple  nom(1 ou plusieurs espaces) prénom (il faut avoir un espace) cette espace permet de distingué le prénom avec le nom du médicament même si le médicament n existe pas il faut qui cette espace  existe lors du strtok le tokken va être égal a ‘n’ le saut de ligne donc il n y a pas de liste de médicament
 
-1.  * LE MENU DU PROJET: * 
-
-![c1.PNG](Hopital/img/Capture d'écran 2023-04-16 171205.png)
+> * LE MENU DU PROJET: 
 
 L’utilisateur doit sélectionner a l’aide des flèches haut & bas , alors son choix sera affiché en vert.
 
 Lors que le message «appuyer sur une touche  pour continuer»apparait, et que l’utilisateur appuie sur une  touche ,  le retour au menu principale est automatique.
 
-1.  * LES FONCTIONS  UTILISEES: * 
+> * LES FONCTIONS  UTILISEES:
 
 Le fichier d’entête option.h  contient  une fonction qui affiche un texte en couleur (textecolor)
 
@@ -81,7 +79,7 @@ void convert(char * ch)  elle convertit du majuscule au minuscule
 
 
 
-REMARQUES:* 
+>REMARQUES:
 
 Dans le tableau  tab[0]  (‘a’): s’il est vide alors, le caractère ‘a’ est affiché en rouge et affiche «NULL»; si non en bleu et son contenu  nom prénom du patient en vert si la liste des médicaments   n’est pas vide ,alors il affiche son contenu; sinon un message en rouge sera affiché.
 
