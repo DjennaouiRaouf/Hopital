@@ -10,7 +10,7 @@ Aussi  si dans le fichier on a par exemple  nom(1 ou plusieurs espaces) prénom 
 
 1.  * LE MENU DU PROJET: * 
 
-![c1.PNG](Aspose.Words.4c2aa64b-4279-4dc7-9d0b-00cb0f6cd47e.001.png)
+![c1.PNG](/img/Capture d'écran 2023-04-16 171205.png)
 
 L’utilisateur doit sélectionner a l’aide des flèches haut & bas , alors son choix sera affiché en vert.
 
