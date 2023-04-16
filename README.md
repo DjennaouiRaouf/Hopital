@@ -22,23 +22,21 @@ Le fichier d’entête option.h  contient  une fonction qui affiche un texte en 
 
 fonction qui positionne le curseur dans la position x,y (gotoxy).
 
-`	`Pour les chaines de caractères ,  on a utilisé les fonctions suivantes:
+Pour les chaines de caractères ,  on a utilisé les fonctions suivantes:
 
 strcpy  pour copier une chaine pleine dans une autre vide.
 
+strcmp  pour comparer deux chaines de caractères.
 
+strtok   pour retourner une chaine selon un séparateur (split).
 
-`       		`strcmp  pour comparer deux chaines de caractères.
+strcat    pour concaténer  une chaine de caractères a une autre.
 
-`		`strtok   pour retourner une chaine selon un séparateur (split).
-
-`  		`strcat    pour concaténer  une chaine de caractères a une autre.
-
-`		`strlen 	retourne la longueur d’une chaine.
+strlen 	retourne la longueur d’une chaine.
 
 void progress_bar() est la fonction qui affiche une barre de progression.
 
-`       `void liberer_liste_med(medicament  * LM)  est la fonction  qui libère la liste des médicaments.
+void liberer_liste_med(medicament  * LM)  est la fonction  qui libère la liste des médicaments.
 
 void liberer_liste_patient(patient * LP)  est la fonction qui libère la liste des patients.
 
